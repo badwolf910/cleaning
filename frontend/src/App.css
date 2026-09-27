@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  color: #0e7c66;
+  margin-bottom: 0.25rem;
+}
+
+section {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.booking-form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #cbd2d9;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.booking-form button {
+  background: #0e7c66;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background: #0b6353;
+}
+
+.status {
+  margin-top: 0.75rem;
+  font-weight: 600;
+}
+
+.status.success {
+  color: #0e7c66;
+}
+
+.status.error {
+  color: #c0392b;
+}
+
+.bookings-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.bookings-list li {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #e4e7eb;
+  border-radius: 8px;
+}
+
+.badge {
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  background: #e4e7eb;
+}
+
+.badge.confirmed {
+  background: #d1f5e0;
+  color: #0e7c66;
+}
+
+.badge.cancelled {
+  background: #fbe1dd;
+  color: #c0392b;
+}
