@@ -1,10 +1,3 @@
-Here is a **fully professional, copy‑and‑paste‑ready README** for your *cleaning* full‑stack project.  
-No emojis.  
-No fluff.  
-Just a clean, industry‑standard document you can drop directly into `README.md`.
-
----
-
 # Cleaning Service Application
 
 A full‑stack cleaning service booking application built with a FastAPI backend and a React (Vite) frontend. The system provides service listings, customer and cleaner management, and booking functionality backed by a MySQL database. This project demonstrates modern full‑stack development practices, including REST API design, environment‑based configuration, modular architecture, and frontend integration.
